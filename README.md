@@ -11,4 +11,4 @@ The maze can be printed to screen as text or saved as a PNG. Please note the PNG
 18.12.12
 Bug fix to make maze print correctly on mazes with different X,Y dimensions.  Added variable for maximum wall size to stop overly long walls on larger mazes.  Sped up the main loop by a long way.  Image saves as PNG instead of JPEG to stop pixel loss.
 
-Big thanks to -rst- and IanH for their feedback.
+Big thanks to -rst- for pointing out the JPEG issue and IanH for a simple but brilliant tip to speed the loop up.
